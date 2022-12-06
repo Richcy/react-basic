@@ -3,12 +3,13 @@ import Sidebar from './fragments/sidebar/sidebar';
 import './styles.css';
 
 function Home() {
-  let data = "ini adalah isi konten";
+  let data = "ini adalah isi konten produk";
 
   return (
     <div>
       <section className='content-container'>
         <Content data={data} />
+        
         <Sidebar />
       </section>
     </div>
